@@ -1,0 +1,92 @@
+* {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-font-color);
+}
+
+footer {
+  background-color: var(--pinkish-bg-color);
+  padding: 0.5rem;
+}
+
+.FlexWrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.CategoryName {
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 0.3rem;
+}
+
+.CategoryText {
+  font-size: 13px;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.CVRnumber {
+  font-size: 13px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.IconGroup {
+  margin-top: 0.2rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon {
+  width: 1.3rem;
+  height: auto;
+}
+
+@media screen and (min-width: 415px) {
+  .CategoryName {
+    font-size: 16px;
+  }
+
+  .CategoryText {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .CategoryName {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .CategoryText {
+    font-size: var(--body-font-size);
+  }
+
+  .CategoryContact {
+    margin-top: 0.5rem;
+  }
+
+  .CVRnumber {
+    font-size: var(--body-font-size);
+    margin-top: 3rem;
+  }
+
+  .icon {
+    width: 2rem;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .CategoryName {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .CategoryName {
+    font-size: 1.5rem;
+  }
+}

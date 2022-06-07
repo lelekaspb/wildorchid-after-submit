@@ -1,0 +1,30 @@
+.NoMatchContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.ErrorWrap {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.BackWrap {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.BackIcon {
+  height: 0.8rem;
+  width: auto;
+}
+
+.BackText {
+  text-decoration: none;
+}

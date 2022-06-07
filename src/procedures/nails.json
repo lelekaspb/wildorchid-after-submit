@@ -1,0 +1,72 @@
+[
+  {
+    "translId": "services.nails.light_manicure_shellac",
+    "translDefould": "Let manicure med shellac / la’rock",
+    "price": 400
+  },
+  {
+    "translId": "services.nails.light_manicure",
+    "translDefould": "Let manicure",
+    "price": 250
+  },
+  {
+    "translId": "services.nails.light_pedicure_shellac",
+    "translDefould": "Let pedicure med shellac / la’rock",
+    "price": 450
+  },
+  {
+    "translId": "services.nails.light_pedicure",
+    "translDefould": "Let pedicure",
+    "price": 300
+  },
+  {
+    "translId": "services.nails.luxus_manicure_shellac",
+    "translDefould": "Luksus spa manicure med shellac / la’rock",
+    "price": 550
+  },
+  {
+    "translId": "services.nails.shellac_fullcolor_fingers",
+    "translDefould": "Shellac / la’rock helfarve på fingre",
+    "price": 300
+  },
+  {
+    "translId": "services.nails.shellac_fullcolor_toes",
+    "translDefould": "Shellac / la’rock helfarve på tæer",
+    "price": 300
+  },
+  {
+    "translId": "services.nails.shellac_fullcolor_fingers_filling",
+    "translDefould": "Shellac / la’rock helfarve på fingre inkl. filing af negle",
+    "price": 350
+  },
+  {
+    "translId": "services.nails.shellac_fullcolor_toes_filling",
+    "translDefould": "Shellac / la’rock helfarve på tæer inkl. filing af negle",
+    "price": 350
+  },
+  {
+    "translId": "services.nails.paraffin_treatment",
+    "translDefould": "Paraffinbehandling til hænder eller fødder",
+    "price": 100
+  },
+  {
+    "translId": "services.nails.mica_or_french",
+    "translDefould": "Glimmer eller franske negle",
+    "price": "+50"
+  },
+  {
+    "translId": "services.nails.shellac_remove",
+    "translDefould": "Aftagning af shellac / la’rock",
+    "price": 100
+  },
+  {
+    "translId": "services.nails.ibx_repair",
+    "translDefould": "IBX repair",
+    "price": 100
+  },
+  {
+    "translId": "services.nails.ibx_strengthening",
+    "translDefould": "IBX forstærkning",
+    "price": 50
+  }
+]

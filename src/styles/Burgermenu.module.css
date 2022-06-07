@@ -1,0 +1,59 @@
+.menu {
+  background-color: var(--pinkish-bg-color);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+  font-size: 30px;
+}
+
+.open {
+  transform: translateX(0);
+}
+
+.closed {
+  transform: translateX(-100%);
+}
+
+.link {
+  composes: link from "./utils.css";
+  margin-bottom: 1.5rem;
+  margin-right: 0;
+  height: 2.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.underline {
+  composes: underline from "./utils.css";
+}
+
+.icon {
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-right: 0.3rem;
+}
+
+.orchid {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: 25vh;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+}

@@ -1,0 +1,304 @@
+.MobileHidden {
+  display: none;
+}
+
+.title {
+  font-weight: var(--font-regular);
+  font-size: var(--title-font-size);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.background,
+.FindBackground {
+  width: 100vw;
+  background-color: var(--pinkish-bg-color);
+}
+
+.ContactWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CategoryWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.CategoryPadding {
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.ContactIcon {
+  height: 1.2rem;
+  width: auto;
+}
+
+.ContactTitle {
+  font-weight: var(--font-regular);
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.ContactText {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.TitleIconWrap {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.illustration {
+  width: 8rem;
+  height: auto;
+}
+
+.FindContainer {
+  width: 85vw;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.FindTitleIconWrap {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.FindIcon {
+  height: 1.2rem;
+  width: auto;
+}
+
+.FindTitle {
+  font-weight: var(--font-regular);
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.FindText {
+  margin-top: 0.5rem;
+}
+
+.WriteTitle {
+  font-weight: var(--font-regular);
+  font-size: var(--title-font-size);
+}
+
+.WriteIcon {
+  height: 1.4rem;
+  width: auto;
+}
+
+.TitleFormWrap {
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.LabelInputWrap {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+label {
+  margin-bottom: 0.3rem;
+}
+
+.SmallInput {
+  background-color: var(--pinkish-bg-color);
+  border: none;
+  /* height: 2rem; */
+  padding: 0.8rem;
+  width: 80vw;
+}
+
+.BigInput {
+  background-color: var(--pinkish-bg-color);
+  border: none;
+  padding: 0.8rem;
+  padding-bottom: 8rem;
+  width: 80vw;
+}
+
+/* input,
+textarea {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+} */
+
+::placeholder {
+  color: var(--placeholder-color);
+}
+
+.ContactButton {
+  background-color: var(--primary-font-color);
+  color: white;
+  border: none;
+  padding: 0.7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: var(--body-font-size);
+
+  /* background-color: var(--primary-font-color);
+  color: var(--button-text-color);
+  border-radius: 1px;
+  text-align: center;
+
+  border-radius: 1px;
+  font-weight: var(--font-regular);
+  text-transform: uppercase;
+  cursor: pointer; */
+}
+
+.ErrorFont {
+  color: var(--error-color);
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.SuccessFont {
+  color: #139b70;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.ThankYou {
+  font-size: 0.7rem;
+  width: 80vw;
+}
+
+@media only screen and (min-width: 500px) {
+  .illustration {
+    width: 30vw;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .BackgroundWrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  .background {
+    width: 90vw;
+  }
+
+  .CategoryWrapper {
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 2;
+  }
+
+  .ContactTitle {
+    font-size: 1.5rem;
+  }
+
+  .ContactText {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .ContactIcon {
+    height: 1.5rem;
+  }
+
+  .ContactButton {
+    padding: 0.8rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+
+  .illustration {
+    width: 15rem;
+    height: auto;
+  }
+
+  .IllustrationWrap {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  .CategoryPadding {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .map {
+    border: none;
+    width: 90vw;
+    height: 40vh;
+  }
+
+  .MapWrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  .FindContainer {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: initial;
+    width: 100vw;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+  }
+
+  .TitleFormWrap {
+    padding-left: 0;
+    padding-bottom: 2rem;
+  }
+
+  .FindTitleIconWrap {
+    justify-content: center;
+  }
+
+  .FindIconTextWrap {
+    width: 40%;
+  }
+
+  .FindBackground {
+    background-color: transparent;
+  }
+
+  .TitleFormWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .WriteIcon {
+    display: none;
+  }
+
+  label {
+    margin-bottom: 0.5rem;
+  }
+
+  .SmallInput,
+  .BigInput {
+    width: 50vw;
+  }
+
+  /* .ErrorFont {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  } */
+
+  .ThankYou {
+    font-size: 1rem;
+    width: 50vw;
+  }
+}

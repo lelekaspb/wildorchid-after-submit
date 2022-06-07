@@ -1,0 +1,25 @@
+.link {
+  color: var(--primary-font-color);
+  text-decoration: none;
+  padding-bottom: 1px;
+  background: linear-gradient(
+      var(--primary-font-color),
+      var(--primary-font-color)
+    )
+    center bottom;
+  background-size: 0% 1px;
+  background-repeat: no-repeat;
+  transition: all 0.4s;
+}
+
+.underline {
+  background-size: 100% 1px;
+}
+
+.heading {
+  color: var(--primary-font-color);
+  text-transform: uppercase;
+  font-weight: var(--font-regular);
+  text-align: center;
+  font-size: var(--title-font-size);
+}

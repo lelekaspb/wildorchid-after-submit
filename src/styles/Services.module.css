@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link {
+  composes: link from "./utils.css";
+  height: 1.2rem;
+}
+
+.default {
+  composes: link from "./utils.css";
+  height: 1.2rem;
+  background-size: 100% 1px;
+}
+
+.link:hover,
+.link:active {
+  background-size: 100% 1px;
+}
+
+.underline {
+  composes: underline from "./utils.css";
+  cursor: default;
+}
+
+@media screen and (min-width: 415px) {
+  .link {
+    height: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .link {
+    height: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .link {
+    font-size: calc(1.2rem + 0.3vw);
+    height: 1.9rem;
+  }
+
+  .navbar {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .page {
+    max-width: 1000px;
+    margin: auto;
+  }
+}

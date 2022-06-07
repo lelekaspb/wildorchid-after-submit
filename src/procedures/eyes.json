@@ -1,0 +1,57 @@
+[
+  {
+    "translId": "services.eyes.color_lashes",
+    "translDefould": "Farvning af vipper",
+    "price": 100
+  },
+  {
+    "translId": "services.eyes.color_brows",
+    "translDefould": "Farvning af bryn",
+    "price": 100
+  },
+  {
+    "translId": "services.eyes.color_lashes_and_brows",
+    "translDefould": "Farvning af vipper og bryn",
+    "price": 180
+  },
+  {
+    "translId": "services.eyes.color_and_correction_brows",
+    "translDefould": "Farvning samt retning af bryn",
+    "price": 180
+  },
+  {
+    "translId": "services.eyes.color_and_correction_brows_and_lashes",
+    "translDefould": "Farvning af vipper og bryn, samt retning af bryn",
+    "price": 230
+  },
+  {
+    "translId": "services.eyes.lash_lift",
+    "translDefould": "Lashlift",
+    "price": 450
+  },
+  {
+    "translId": "services.eyes.lash_lift_and_color",
+    "translDefould": "Lashlift inkl. farve af vipper",
+    "price": 500
+  },
+  {
+    "translId": "services.eyes.lash_botox_addon_to_lift",
+    "translDefould": "Lash botox i forbindelse med lash lift",
+    "price": 50
+  },
+  {
+    "translId": "services.eyes.lash_extension",
+    "translDefould": "Vippe extensions (enkelte)",
+    "price": 700
+  },
+  {
+    "translId": "services.eyes.lash_filling",
+    "translDefould": "Lille opfyldning med enkelte vipper",
+    "price": 400
+  },
+  {
+    "translId": "services.eyes.lash_extension_remove",
+    "translDefould": "Aftagning af vippe extenstions",
+    "price": 200
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "translId": "services.sugaring.brasilian",
+    "translDefould": "Sugaring brasiliansk",
+    "priceBeforeSixWeeks": 350,
+    "priceAfterSixWeeks": 400
+  },
+  {
+    "translId": "services.sugaring.bikini",
+    "translDefould": "Sugaring af bikini",
+    "priceBeforeSixWeeks": 200,
+    "priceAfterSixWeeks": 250
+  },
+  {
+    "translId": "services.sugaring.half_legs",
+    "translDefould": "Sugaring af halve ben",
+    "priceBeforeSixWeeks": 450,
+    "priceAfterSixWeeks": 550
+  },
+  {
+    "translId": "services.sugaring.thighs",
+    "translDefould": "Sugaring af lår",
+    "priceBeforeSixWeeks": 450,
+    "priceAfterSixWeeks": 550
+  },
+  {
+    "translId": "services.sugaring.buttocks",
+    "translDefould": "Sugaring af balder",
+    "priceBeforeSixWeeks": 150,
+    "priceAfterSixWeeks": "-"
+  },
+  {
+    "translId": "services.sugaring.lower_back",
+    "translDefould": "Sugaring af lænden",
+    "priceBeforeSixWeeks": 150,
+    "priceAfterSixWeeks": "-"
+  },
+  {
+    "translId": "services.sugaring.armpits",
+    "translDefould": "Sugaring af armhuler",
+    "priceBeforeSixWeeks": 150,
+    "priceAfterSixWeeks": 200
+  },
+  {
+    "translId": "services.sugaring.half_arms",
+    "translDefould": "Sugaring af halve arme",
+    "priceBeforeSixWeeks": 300,
+    "priceAfterSixWeeks": 400
+  },
+  {
+    "translId": "services.sugaring.whole_arms",
+    "translDefould": "Sugaring af hele arme",
+    "priceBeforeSixWeeks": 450,
+    "priceAfterSixWeeks": 500
+  },
+  {
+    "translId": "services.sugaring.whole_back",
+    "translDefould": "Sugaring af hele ryg",
+    "priceBeforeSixWeeks": 400,
+    "priceAfterSixWeeks": "-"
+  },
+  {
+    "translId": "services.sugaring.whole_back_men",
+    "translDefould": "Sugaring af hele ryg (mænd)",
+    "priceBeforeSixWeeks": 450,
+    "priceAfterSixWeeks": "-"
+  },
+  {
+    "translId": "services.sugaring.lip_chin",
+    "translDefould": "Sugaring af overlæbe / hage",
+    "priceBeforeSixWeeks": 120,
+    "priceAfterSixWeeks": 150
+  },
+  {
+    "translId": "services.sugaring.enzyme_peeling",
+    "translDefould": "Enzyme peeling clinique care i forbindelse med behandling",
+    "priceBeforeSixWeeks": 100,
+    "priceAfterSixWeeks": 100
+  }
+]

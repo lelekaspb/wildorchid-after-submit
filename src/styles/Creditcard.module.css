@@ -1,0 +1,63 @@
+.content {
+  margin: 2rem 1rem;
+}
+
+.form {
+  max-width: 500px;
+  width: 95%;
+}
+
+.line_three {
+  display: flex;
+  flex-direction: column;
+}
+
+.line_four,
+.line_five {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.expiry_input {
+  composes: input from "./Giftcard.module.css";
+  width: 100%;
+}
+
+.cvc_input {
+  composes: input from "./Giftcard.module.css";
+  width: 100%;
+}
+
+.orchid {
+  display: none;
+}
+
+@media screen and (min-width: 450px) {
+  .line_three {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .line_three > * {
+    width: 47%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10rem;
+  }
+
+  .orchid {
+    display: flex;
+    justify-content: flex-start;
+    width: 800px;
+  }
+
+  .image {
+    transform: rotate(-30deg);
+  }
+}

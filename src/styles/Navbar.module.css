@@ -1,0 +1,62 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  z-index: 10;
+}
+
+.bg {
+  background-color: var(--pinkish-bg-color);
+}
+
+.logo_link {
+  justify-self: center;
+}
+
+.logo {
+  width: 25vw;
+}
+
+.lang_buttons {
+  display: inline;
+}
+
+.mr_1 {
+  margin-right: 0.6rem;
+}
+
+.button_primary {
+  composes: button_primary from "./Buttons.module.css";
+  border: 2px solid var(--primary-font-color);
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+.button_outline {
+  border: 2px solid var(--primary-font-color);
+  background-color: transparent;
+  color: var(--primary-font-color);
+  border-radius: 1px;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    padding: 1rem 3rem;
+  }
+
+  .logo {
+    width: 10vw;
+  }
+
+  .logo_link {
+    justify-self: flex-start;
+  }
+
+  .pull_right {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

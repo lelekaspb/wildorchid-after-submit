@@ -1,0 +1,61 @@
+:root {
+  --rdp-cell-size: calc(2rem + 2.5vw);
+  --rdp-accent-color: #d6a38a;
+  --rdp-background-color: #fff3ee;
+  --rdp-accent-color-dark: #d6a38a;
+  --rdp-background-color-dark: #d6a38a;
+  --rdp-outline: 2px solid var(--rdp-accent-color);
+  --rdp-outline-selected: 2px solid rgba(68, 3, 3, 0.6);
+}
+
+.rdp {
+  margin: 0 auto 2rem 0;
+  max-width: calc(16rem + 20vw);
+}
+
+.rdp-caption_label {
+  z-index: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 375px) {
+  :root {
+    --rdp-cell-size: calc(2.5rem + 2vw);
+  }
+
+  .rdp {
+    max-width: calc(20rem + 15vw);
+  }
+}
+
+@media screen and (min-width: 425px) {
+  :root {
+    --rdp-cell-size: calc(2.5rem + 3vw);
+  }
+
+  .rdp {
+    max-width: calc(20rem + 24vw);
+  }
+}
+
+@media screen and (min-width: 520px) {
+  :root {
+    --rdp-cell-size: calc(3rem + 2vw);
+  }
+
+  .rdp {
+    max-width: calc(24rem + 16vw);
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  :root {
+    --rdp-cell-size: calc(3rem + 1vw);
+  }
+
+  .rdp {
+    max-width: calc(24rem + 8vw);
+  }
+}

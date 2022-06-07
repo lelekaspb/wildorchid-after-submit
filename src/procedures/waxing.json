@@ -1,0 +1,110 @@
+[
+  {
+    "translId": "services.waxing.brasilian",
+    "translDefould": "Voks brasiliansk",
+    "priceBeforeSixWeeks": 350,
+    "priceAfterSixWeeks": 400
+  },
+  {
+    "translId": "services.waxing.bikini",
+    "translDefould": "Voks af bikini",
+    "priceBeforeSixWeeks": 200,
+    "priceAfterSixWeeks": 250
+  },
+  {
+    "translId": "services.waxing.thighs",
+    "translDefould": "Voks af lår",
+    "priceBeforeSixWeeks": 200,
+    "priceAfterSixWeeks": "-"
+  },
+  {
+    "translId": "services.waxing.half_legs",
+    "translDefould": "Voks af halve ben",
+    "priceBeforeSixWeeks": 200,
+    "priceAfterSixWeeks": "-"
+  },
+  {
+    "translId": "services.waxing.whole_legs",
+    "translDefould": "Voks af hele ben",
+    "priceBeforeSixWeeks": 350,
+    "priceAfterSixWeeks": "-"
+  },
+  {
+    "translId": "services.waxing.whole_legs_men",
+    "translDefould": "Voks af hele ben (mænd)",
+    "priceBeforeSixWeeks": 400,
+    "priceAfterSixWeeks": "-"
+  },
+  {
+    "translId": "services.waxing.balls",
+    "translDefould": "Voks af baller",
+    "priceBeforeSixWeeks": 150,
+    "priceAfterSixWeeks": "-"
+  },
+  {
+    "translId": "services.waxing.loins",
+    "translDefould": "Voks af lænden",
+    "priceBeforeSixWeeks": 150,
+    "priceAfterSixWeeks": "-"
+  },
+  {
+    "translId": "services.waxing.armpits",
+    "translDefould": "Voks af armhule",
+    "priceBeforeSixWeeks": 100,
+    "priceAfterSixWeeks": 150
+  },
+  {
+    "translId": "services.waxing.armpits_men",
+    "translDefould": "Voks af armhule (mænd)",
+    "priceBeforeSixWeeks": 150,
+    "priceAfterSixWeeks": 200
+  },
+  {
+    "translId": "services.waxing.half_arms",
+    "translDefould": "Voks af halve arme",
+    "priceBeforeSixWeeks": 150,
+    "priceAfterSixWeeks": "-"
+  },
+  {
+    "translId": "services.waxing.whole_arms",
+    "translDefould": "Voks af hele arme",
+    "priceBeforeSixWeeks": 250,
+    "priceAfterSixWeeks": "-"
+  },
+  {
+    "translId": "services.waxing.whole_back",
+    "translDefould": "Voks af hele ryg",
+    "priceBeforeSixWeeks": 250,
+    "priceAfterSixWeeks": "-"
+  },
+  {
+    "translId": "services.waxing.whole_back_men",
+    "translDefould": "Voks af hele ryg (mænd)",
+    "priceBeforeSixWeeks": 300,
+    "priceAfterSixWeeks": "-"
+  },
+  {
+    "translId": "services.waxing.brows_lip",
+    "translDefould": "Voks af bryn samt overlæbe",
+    "priceBeforeSixWeeks": 180,
+    "priceAfterSixWeeks": "-"
+  },
+  {
+    "translId": "services.waxing.face_parts",
+    "translDefould": "Voks af bryn / næse / overlæbe / kinder / hage / hals / bakkenbarter",
+    "priceBeforeSixWeeks": 100,
+    "priceAfterSixWeeks": "-"
+  },
+  {
+    "translId": "services.waxing.face_whole",
+    "translDefould": "Voks af hele ansigtet",
+    "priceBeforeSixWeeks": 200,
+    "priceAfterSixWeeks": "-"
+  },
+  {
+    "translId": "services.waxing.whole_body",
+    "translDefould": "Voks af hele kroppen",
+    "priceBeforeSixWeeks": 1100,
+    "priceAfterSixWeeks": 1400
+  }
+]

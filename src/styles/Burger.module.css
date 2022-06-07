@@ -1,0 +1,62 @@
+.wrapper {
+  min-width: 70px;
+  z-index: 10;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 1.7rem;
+  height: 1.7rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.line {
+  width: 1.7rem;
+  height: 0.2rem;
+  background: var(--primary-font-color);
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+}
+
+.line1_open {
+  transform: rotate(45deg);
+}
+
+.line1_closed {
+  transform: rotate(0);
+}
+
+.line2_open {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.line2_closed {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.line3_open {
+  transform: rotate(-45deg);
+}
+
+.line3_closed {
+  transform: rotate(0);
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    display: none;
+  }
+}

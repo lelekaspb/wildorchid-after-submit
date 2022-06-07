@@ -1,0 +1,263 @@
+.section {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content min-content min-content;
+  margin: 1rem 0;
+}
+
+/* products section 
+------------------- */
+.products {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content min-content;
+}
+
+.products_img_wrapper {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products_img {
+  max-width: 100%;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+.products_text {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+
+/* procedures and prices section 
+------------------------------- */
+.procedures {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.line:nth-child(odd) {
+  background-color: var(--pinkish-bg-color);
+}
+
+.price {
+  margin-left: 1rem;
+}
+
+.book {
+  margin: 2rem 0;
+}
+
+.book_btn {
+  composes: button_primary from "./Buttons.module.css";
+  padding: 0.7rem;
+  text-decoration: none;
+}
+
+/* image gallery section 
+---------------------- */
+.gallery {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.gallery_img {
+  max-width: 100%;
+}
+
+/* waxing and sugaring stylings 
+------------------------------ */
+.sugaring {
+  margin-bottom: 1rem;
+}
+
+.line_waxing,
+.table_header {
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 0.3fr 0.3fr;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+}
+
+.line_waxing:nth-child(even) {
+  background-color: var(--pinkish-bg-color);
+}
+
+.name_waxing {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.price_smaller {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.price_bigger {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.table_header {
+  margin-bottom: 0.6rem;
+  align-items: baseline;
+}
+
+.table_name {
+  text-transform: uppercase;
+  font-weight: var(--font-bold);
+  font-size: calc(1.2rem + 0.3vw);
+}
+
+.table_price_bigger {
+  composes: price_bigger;
+  font-size: 10px;
+}
+
+.table_price_smaller {
+  composes: price_smaller;
+  font-size: 10px;
+}
+
+.book_waxing {
+  composes: book;
+  display: grid;
+  grid-template-columns: max-content 0.7fr;
+  gap: 1rem;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.valid_for {
+  font-size: 10px;
+  text-align: right;
+}
+
+/* media queries 
+---------------- */
+@media screen and (min-width: 415px) {
+  .valid_for,
+  .table_price_bigger,
+  .table_price_smaller {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .valid_for,
+  .table_price_bigger,
+  .table_price_smaller {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .products {
+    grid-template-columns: 0.4fr 1fr;
+    grid-template-rows: max-content;
+    gap: 1rem;
+    align-items: center;
+    margin: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .products_text {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .products_img {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .line,
+  .line_waxing {
+    padding: 0.8rem;
+  }
+
+  .sugaring {
+    margin-bottom: 2rem;
+  }
+
+  .table_price_bigger {
+    font-size: 14px;
+  }
+
+  .table_price_smaller {
+    font-size: 14px;
+  }
+
+  .valid_for {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .section {
+    grid-template-columns: 1fr 0.4fr;
+    grid-template-rows: min-content min-content;
+    column-gap: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .products {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .procedures {
+    margin: 0;
+  }
+
+  .gallery {
+    margin: 0;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .gallery_img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+  }
+
+  .book {
+    margin: 3rem 0;
+  }
+
+  .book_btn {
+    padding: 1rem;
+  }
+
+  .sugaring {
+    margin-bottom: 3rem;
+  }
+}

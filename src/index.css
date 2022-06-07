@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+  --primary-font-color: #844424;
+  --pinkish-bg-color: #fff3ee;
+  --pinkish-border-color: #f0cdbc;
+  --button-text-color: #ffffff;
+  --placeholder-color: #d6a38a;
+  --error-color: #b73a52;
+  --success-color: #139b70;
+
+  --primary-font: "Roboto", sans-serif;
+  --logo-font: "Merienda", cursive;
+
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+  --font-black: 900;
+
+  --body-font-size: calc(1rem + 0.3vw);
+  --title-font-size: calc(1.8rem + 0.3vw);
+}
+
+body {
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  font-family: var(--primary-font);
+  font-size: 13px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 415px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  body {
+    font-size: var(--body-font-size);
+  }
+}

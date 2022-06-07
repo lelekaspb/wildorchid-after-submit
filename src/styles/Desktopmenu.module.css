@@ -1,0 +1,26 @@
+.menu {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.link {
+  composes: link from "./utils.css";
+  margin-right: 1.5rem;
+  height: 1.6rem;
+}
+
+.link:hover,
+.link:active {
+  background-size: 100% 1px;
+}
+
+.underline {
+  composes: underline from "./utils.css";
+  cursor: default;
+}
