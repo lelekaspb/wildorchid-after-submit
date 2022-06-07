@@ -23,7 +23,7 @@ function Navbar() {
       <NavLink to="/" className={`${navbar.logo_link}`}>
         <img
           className={navbar.logo}
-          src="./../logo/logo.svg"
+          src="./../logo/logo-merienda.svg"
           alt="logo"
           data-page="home"
         />
