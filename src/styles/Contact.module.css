@@ -149,16 +149,7 @@ textarea {
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: var(--body-font-size);
-
-  /* background-color: var(--primary-font-color);
-  color: var(--button-text-color);
-  border-radius: 1px;
-  text-align: center;
-
-  border-radius: 1px;
-  font-weight: var(--font-regular);
-  text-transform: uppercase;
-  cursor: pointer; */
+  border-radius: 0;
 }
 
 .ErrorFont {
