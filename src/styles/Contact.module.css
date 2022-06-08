@@ -152,6 +152,10 @@ textarea {
   border-radius: 0;
 }
 
+.ContactButton:hover {
+  cursor: pointer;
+}
+
 .ErrorFont {
   color: var(--error-color);
   font-size: 0.8rem;
