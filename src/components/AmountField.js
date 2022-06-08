@@ -30,6 +30,7 @@ const Amount = forwardRef(
             id: "giftcard.info.amount_placeholder",
             defaultMessage: "Skriv dit efternavn her...",
           })}
+          inputMode="numeric"
           value={value}
           onChange={handleInput}
           onBlur={handleBlur}

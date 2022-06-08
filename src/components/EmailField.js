@@ -24,6 +24,7 @@ const Email = forwardRef(
             id: "giftcard.info.email_placeholder",
             defaultMessage: "Skriv dit efternavn her...",
           })}
+          inputMode="email"
           value={value}
           onChange={handleInput}
           onBlur={handleBlur}
