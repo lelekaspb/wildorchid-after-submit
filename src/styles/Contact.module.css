@@ -150,10 +150,12 @@ textarea {
   padding-right: 1rem;
   font-size: var(--body-font-size);
   border-radius: 0;
+  transition: 0.3s ease;
 }
 
 .ContactButton:hover {
   cursor: pointer;
+  background-color: #71311a;
 }
 
 .ErrorFont {
