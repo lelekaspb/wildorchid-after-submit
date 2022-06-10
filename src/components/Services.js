@@ -1,8 +1,9 @@
 import services from "./../styles/Services.module.css";
 import { FormattedMessage } from "react-intl";
-import { Outlet, NavLink } from "react-router-dom";
+import { Outlet, NavLink, useLocation } from "react-router-dom";
 
 function Services() {
+  let location = useLocation();
   return (
     <>
       <div className={services.page}>
@@ -10,7 +11,11 @@ function Services() {
           <NavLink
             to="eyes"
             className={({ isActive }) =>
-              ` ${services.link} ${isActive ? services.underline : ""}`
+              ` ${services.link} ${
+                isActive || location.pathname === "/services"
+                  ? services.underline
+                  : ""
+              }`
             }
           >
             <FormattedMessage
