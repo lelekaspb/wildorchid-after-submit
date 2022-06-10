@@ -3,6 +3,7 @@ import contact from "../styles/Contact.module.css";
 import { useIntl, FormattedMessage } from "react-intl";
 import { Form, Field } from "react-final-form";
 import { z } from "zod";
+import { sendEmail } from "./../utilities/post.js";
 
 function Contact() {
   const [hasSubmitted, setHasSubmitted] = React.useState(false);
@@ -24,6 +25,7 @@ function Contact() {
       const request = await fetch(url, options);
       const data = await request.json();
       setHasSubmitted(true);
+      sendEmail(data, "contact");
       return data;
     } catch (err) {
       console.log("Caught error " + err);

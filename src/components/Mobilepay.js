@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { Context } from "./ContextWrapper";
 import { useContext } from "react";
-import { postGiftcard } from "./../utilities/post.js";
+import { postGiftcard, sendEmail } from "./../utilities/post.js";
 import mobilepay from "./../styles/Mobilepay.module.css";
 
 function Mobilepay() {
@@ -37,6 +37,8 @@ function Mobilepay() {
         // and redirect user to confirmation page
         setInfoToInitial();
         redirectToConfirmation();
+        // send notifying email to Wild Orchid
+        sendEmail(response, "giftcard");
       } else {
         alert("failed to post");
       }
