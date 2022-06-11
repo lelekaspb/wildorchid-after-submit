@@ -92,6 +92,7 @@ fieldset {
 
 .input {
   border: none;
+  border-radius: 0;
   background-color: var(--pinkish-bg-color);
   padding: 0.8rem;
 }
