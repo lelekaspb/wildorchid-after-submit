@@ -2,7 +2,7 @@ import { FormattedMessage, FormattedDate } from "react-intl";
 import { useNavigate } from "react-router-dom";
 import { Context } from "./ContextWrapper";
 import { useContext, useRef, useEffect, useCallback } from "react";
-import { postGiftcard } from "./../utilities/post.js";
+import { postGiftcard, sendEmail } from "./../utilities/post.js";
 import creditcard from "../styles/Creditcard.module.css";
 import giftcard from "../styles/Giftcard.module.css";
 import Cardnumber from "./Cardnumber";
@@ -83,6 +83,8 @@ function Creditcard() {
           // and redirect user to confirmation page
           setInfoToInitial();
           redirectToConfirmation();
+          // send notifying email to Wild Orchid
+          sendEmail(response, "giftcard");
         } else {
           alert("failed to post");
         }

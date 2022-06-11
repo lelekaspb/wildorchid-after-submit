@@ -36,7 +36,7 @@ function Payment() {
 
         {/* navigation scheme */}
         <div className={payment.nav_scheme}>
-          <div className={giftcard.step_done}>&#10004;</div>
+          <div className={giftcard.step_done}>&#10004;&#xFE0E;</div>
           <div className={giftcard.step_middle}></div>
           <div className={giftcard.step_done}>2</div>
         </div>
