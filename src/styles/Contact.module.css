@@ -157,6 +157,8 @@ textarea {
   padding-right: 1rem;
   font-size: var(--body-font-size);
   border-radius: 0;
+  -webkit-border-radius: 0px;
+  -webkit-appearance: none;
 }
 
 .ContactButton:hover {
