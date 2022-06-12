@@ -157,7 +157,7 @@
 
   "book": "Book now",
 
-  "giftcard.info.welcome": "You can order an electronic gift card to be send to a specified email",
+  "giftcard.info.welcome": "You can order an electronic gift card to be sent to an email.",
   "giftcard.info.first_name_label": "First name",
   "giftcard.first_name.directive": "Gift card recipient's first name",
   "giftcard.info.first_name_placeholder": "Type first name here...",
@@ -172,7 +172,7 @@
   "giftcard.info.amount_label": "Amount (DKK) *",
   "giftcard.info.amount_placeholder": "Type the amount you wish to purchase here...",
   "giftcard.info.note_label": "Note",
-  "giftcard.note.directive": "If there is anything else we should know (optional)",
+  "giftcard.note.directive": "Type in a personalized message to the gift card recipient (optional)",
   "giftcard.info.note_placeholder": "Type a note here...",
   "giftcard.info.date_label": "Date received *",
   "giftcard.info.date.directive": "The gift card will be send to the chosen email on this day",

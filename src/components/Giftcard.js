@@ -181,7 +181,7 @@ function Giftcard() {
             <div className={giftcard.welcome}>
               <FormattedMessage
                 id="giftcard.info.welcome"
-                defaultMessage="Du kan bestille et elektronisk gavekort, der skal sendes til en specificeret e-mail"
+                defaultMessage="Du kan bestille et elektronisk gavekort, der skal sendes til en email."
               />
             </div>
 

@@ -16,7 +16,7 @@ const Note = ({ value, handleInput }) => {
       <span className={giftcard.directive}>
         <FormattedMessage
           id="giftcard.note.directive"
-          defaultMessage="Hvis der er noget andet vi bør at vide (valgfri)"
+          defaultMessage="Indtast en personlig besked til gavekortmodtageren (valgfri)"
         />
       </span>
       <textarea

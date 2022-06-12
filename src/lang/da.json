@@ -157,7 +157,7 @@
 
   "book": "Book nu",
 
-  "giftcard.info.welcome": "Du kan bestille et elektronisk gavekort, der skal sendes til en specificeret email",
+  "giftcard.info.welcome": "Du kan bestille et elektronisk gavekort, der skal sendes til en email.",
   "giftcard.info.first_name_label": "Fornavn",
   "giftcard.first_name.directive": "Gavekortmodtagers fornavn",
   "giftcard.info.first_name_placeholder": "Skriv fornavn her...",
@@ -172,7 +172,7 @@
   "giftcard.info.amount_label": "Beløb (DKK) *",
   "giftcard.info.amount_placeholder": "Skriv det beløb du ønsker at købe her...",
   "giftcard.info.note_label": "Bemærk",
-  "giftcard.note.directive": "Hvis der er noget andet vi bør at vide (valgfri)",
+  "giftcard.note.directive": "Indtast en personlig besked til gavekortmodtageren (valgfri)",
   "giftcard.info.note_placeholder": "Skriv bemærk her...",
   "giftcard.info.date_label": "Dato modtaget *",
   "giftcard.info.date.directive": "Gavekortet sendes til den valgte email denne dag",
