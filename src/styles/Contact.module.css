@@ -156,16 +156,13 @@ textarea {
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: var(--body-font-size);
+  border-radius: 0;
+  -webkit-border-radius: 0px;
+  -webkit-appearance: none;
+}
 
-  /* background-color: var(--primary-font-color);
-  color: var(--button-text-color);
-  border-radius: 1px;
-  text-align: center;
-
-  border-radius: 1px;
-  font-weight: var(--font-regular);
-  text-transform: uppercase;
-  cursor: pointer; */
+.ContactButton:hover {
+  cursor: pointer;
 }
 
 .ErrorFont {
@@ -225,6 +222,9 @@ textarea {
     padding: 0.8rem;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
+    border-radius: 0;
+    -webkit-border-radius: 0px;
+    -webkit-appearance: none;
   }
 
   .illustration {
