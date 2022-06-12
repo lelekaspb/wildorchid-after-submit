@@ -13,6 +13,12 @@ const Note = ({ value, handleInput }) => {
           defaultMessage="Bemærk"
         />
       </label>
+      <span className={giftcard.directive}>
+        <FormattedMessage
+          id="giftcard.note.directive"
+          defaultMessage="Hvis der er noget andet vi bør at vide (valgfri)"
+        />
+      </span>
       <textarea
         rows="6"
         className={giftcard.input}

@@ -22,7 +22,7 @@
 
   "home.instagram": "Tjek vores Instagram-opslag",
   "giftcard.thanks": "Tak for dit køb og for at støtte vores virksomhed!",
-  "giftcard.promise": "Gavekortet sendes på mail nu.",
+  "giftcard.promise": "Gavekortet sendes på email {date}.",
 
   "greeting": "Wild Orchid Webside",
 
@@ -157,17 +157,25 @@
 
   "book": "Book nu",
 
+  "giftcard.info.welcome": "Du kan bestille et elektronisk gavekort, der skal sendes til en specificeret email",
   "giftcard.info.first_name_label": "Fornavn",
+  "giftcard.first_name.directive": "Gavekortmodtagers fornavn",
   "giftcard.info.first_name_placeholder": "Skriv fornavn her...",
   "giftcard.info.last_name_label": "Efternavn",
+  "giftcard.last_name.directive": "Gavekortmodtagers efternavn",
   "giftcard.info.last_name_placeholder": "Skriv efternavn her...",
   "giftcard.info.email_label": "Email *",
+  "giftcard.recipient_email.directive": "Gavekortmodtagers email",
   "giftcard.info.email_placeholder": "Skriv email her...",
+  "giftcard.info.sender_email_label": "Afsender email",
+  "giftcard.sender_email.directive": "Gavekort afsenderens email (valgfri)",
   "giftcard.info.amount_label": "Beløb (DKK) *",
   "giftcard.info.amount_placeholder": "Skriv det beløb du ønsker at købe her...",
   "giftcard.info.note_label": "Bemærk",
+  "giftcard.note.directive": "Hvis der er noget andet vi bør at vide (valgfri)",
   "giftcard.info.note_placeholder": "Skriv bemærk her...",
   "giftcard.info.date_label": "Dato modtaget *",
+  "giftcard.info.date.directive": "Gavekortet sendes til den valgte email denne dag",
   "giftcard.info.now_label": "Nu",
   "giftcard.info.later_label": "Senere",
   "giftcard.name.error": "{value} kan kun bestå af bogstaver",

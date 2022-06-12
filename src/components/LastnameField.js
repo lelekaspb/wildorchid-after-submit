@@ -16,6 +16,12 @@ const Lastname = forwardRef(
           />
           {" *"}
         </label>
+        <span className={giftcard.directive}>
+          <FormattedMessage
+            id="giftcard.last_name.directive"
+            defaultMessage="Gavekortmodtagers efternavn"
+          />
+        </span>
         <input
           className={giftcard.input}
           type="text"

@@ -13,6 +13,7 @@ import Lastname from "./LastnameField";
 import Email from "./EmailField";
 import Amount from "./AmountField";
 import Note from "./NoteField";
+import SenderEmail from "./SenderEmailField";
 
 function Giftcard() {
   // for redirecting user to the payment page after form validation
@@ -40,6 +41,14 @@ function Giftcard() {
       return "success";
     } else {
       return "error";
+    }
+  };
+
+  const validateSenderEmail = (string) => {
+    if (string.length > 0) {
+      return validateEmail(string);
+    } else {
+      return "hidden";
     }
   };
 
@@ -90,6 +99,7 @@ function Giftcard() {
   const firstNameRef = useRef("");
   const lastNameRef = useRef("");
   const emailRef = useRef("");
+  const senderEmailRef = useRef("");
   const amountRef = useRef("");
 
   const checkForErrors = () => {
@@ -100,6 +110,10 @@ function Giftcard() {
     });
     dispatch({ type: "lnameHelp", data: validateName(info.giftcard.lastName) });
     dispatch({ type: "emailHelp", data: validateEmail(info.giftcard.email) });
+    dispatch({
+      type: "senderEmailHelp",
+      data: validateSenderEmail(info.giftcard.senderEmail),
+    });
     dispatch({
       type: "amountHelp",
       data: validateAmount(info.giftcard.amount),
@@ -114,6 +128,8 @@ function Giftcard() {
       return emailRef;
     } else if (validateAmount(info.giftcard.amount) === "error") {
       return amountRef;
+    } else if (validateSenderEmail(info.giftcard.senderEmail) === "error") {
+      return senderEmailRef;
     }
   };
 
@@ -162,6 +178,13 @@ function Giftcard() {
         {/* gift card infornation form */}
         <form className={giftcard.info_form} autoComplete="off">
           <fieldset>
+            <div className={giftcard.welcome}>
+              <FormattedMessage
+                id="giftcard.info.welcome"
+                defaultMessage="Du kan bestille et elektronisk gavekort, der skal sendes til en specificeret e-mail"
+              />
+            </div>
+
             <div className={giftcard.name}>
               {/* first name field */}
               <Firstname
@@ -212,6 +235,21 @@ function Giftcard() {
               }}
             />
 
+            <SenderEmail
+              value={info.giftcard.senderEmail}
+              help={info.giftcard.senderEmailHelp}
+              ref={senderEmailRef}
+              handleInput={(e) => {
+                dispatch({ type: "senderEmail", data: e.target.value });
+              }}
+              handleBlur={(e) => {
+                dispatch({
+                  type: "senderEmailHelp",
+                  data: validateSenderEmail(e.target.value),
+                });
+              }}
+            />
+
             {/* amount field */}
             <Amount
               value={info.giftcard.amount}
@@ -240,13 +278,19 @@ function Giftcard() {
           {/* date of receiving fieldset */}
           <fieldset className={giftcard.day_picker}>
             {/* datepicker */}
-            <div>
+            <div className={giftcard.field}>
               <label className={giftcard.label} htmlFor="day_picker">
                 <FormattedMessage
                   id="giftcard.info.date_label"
                   defaultMessage="Dato modtaget *"
                 />
               </label>
+              <span className={giftcard.directive}>
+                <FormattedMessage
+                  id="giftcard.info.date.directive"
+                  defaultMessage="Gavekortet sendes til den valgte e-mail denne dag"
+                />
+              </span>
               <DayPicker
                 id="day_picker"
                 mode="single"

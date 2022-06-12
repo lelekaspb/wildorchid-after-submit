@@ -56,11 +56,13 @@ function ContextWrapper(props) {
       firstName: "",
       lastName: "",
       email: "",
+      senderEmail: "",
       amount: "",
       note: "",
       firstNameHelp: "hidden",
       lastNameHelp: "hidden",
       emailHelp: "hidden",
+      senderEmailHelp: "hidden",
       amountHelp: "hidden",
       date: new Date(),
       validated: false,
@@ -75,6 +77,9 @@ function ContextWrapper(props) {
       expiryInvalid: false,
       cvc: "",
       cvcHelp: "hidden",
+    },
+    response: {
+      date: "",
     },
     reset: false,
   };
@@ -97,6 +102,11 @@ function ContextWrapper(props) {
         };
       case "email":
         return { ...info, giftcard: { ...info.giftcard, email: action.data } };
+      case "senderEmail":
+        return {
+          ...info,
+          giftcard: { ...info.giftcard, senderEmail: action.data },
+        };
       case "amount":
         return { ...info, giftcard: { ...info.giftcard, amount: action.data } };
       case "note":
@@ -115,6 +125,11 @@ function ContextWrapper(props) {
         return {
           ...info,
           giftcard: { ...info.giftcard, emailHelp: action.data },
+        };
+      case "senderEmailHelp":
+        return {
+          ...info,
+          giftcard: { ...info.giftcard, senderEmailHelp: action.data },
         };
       case "amountHelp":
         return {
@@ -175,6 +190,8 @@ function ContextWrapper(props) {
           ...info,
           creditcard: { ...info.creditcard, cvcHelp: action.data },
         };
+      case "respDate":
+        return { ...info, response: { ...info.response, date: action.data } };
 
       default:
         throw new Error();
@@ -188,11 +205,13 @@ function ContextWrapper(props) {
       dispatch({ type: "fname", data: "" });
       dispatch({ type: "lname", data: "" });
       dispatch({ type: "email", data: "" });
+      dispatch({ type: "senderEmail", data: "" });
       dispatch({ type: "amount", data: "" });
       dispatch({ type: "note", data: "" });
       dispatch({ type: "fnameHelp", data: "hidden" });
       dispatch({ type: "lnameHelp", data: "hidden" });
       dispatch({ type: "emailHelp", data: "hidden" });
+      dispatch({ type: "senderEmailHelp", data: "hidden" });
       dispatch({ type: "amountHelp", data: "hidden" });
       dispatch({ type: "date", data: new Date() });
       dispatch({ type: "validated", data: false });
@@ -206,6 +225,7 @@ function ContextWrapper(props) {
       dispatch({ type: "expiryInvalid", data: false });
       dispatch({ type: "cccvc", data: "" });
       dispatch({ type: "cccvcHelp", data: "hidden" });
+      // dispatch({ type: "respDate", data: "" });
     }
   }, [info.reset]);
 

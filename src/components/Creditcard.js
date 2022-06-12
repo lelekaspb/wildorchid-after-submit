@@ -60,6 +60,10 @@ function Creditcard() {
     }
   };
 
+  const updateResponse = (response) => {
+    dispatch({ type: "respDate", data: response.date_receive });
+  };
+
   // handle form submit
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -72,6 +76,7 @@ function Creditcard() {
           first_name: info.giftcard.firstName,
           last_name: info.giftcard.lastName,
           email: info.giftcard.email,
+          sender_email: info.giftcard.senderEmail,
           amount: parseInt(info.giftcard.amount),
           note: info.giftcard.note,
           date_receive: info.giftcard.date,
@@ -82,6 +87,7 @@ function Creditcard() {
           // if post request was successful, set state to initial,
           // and redirect user to confirmation page
           setInfoToInitial();
+          updateResponse(response);
           redirectToConfirmation();
           // send notifying email to Wild Orchid
           sendEmail(response, "giftcard");

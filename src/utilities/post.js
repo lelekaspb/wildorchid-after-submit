@@ -46,9 +46,12 @@ const preparePayload = (response, type) => {
       subject: "New gift card order",
       html: `<p>Dear Julia</p> 
           <p>We have received new gift card order. Find the order information below.</p>
-          <p>First name: <b>${response.first_name}</b></p> 
-          <p>Last name: <b>${response.last_name}</b></p>
-          <p>Email: <b>${response.email}</b></p>
+          <p>Recipient first name: <b>${response.first_name}</b></p> 
+          <p>Recipient last name: <b>${response.last_name}</b></p>
+          <p>Recipient email: <b>${response.email}</b></p>
+          <p>Sender email: <b>${
+            response.sender_email || "not specified"
+          }</b></p>
           <p>Amount: <b>${response.amount} dkk</b></p>
           <p>Date of receiving: <b>${date}</b></p>
           <p>Note: <b>${response.note}</b></p>

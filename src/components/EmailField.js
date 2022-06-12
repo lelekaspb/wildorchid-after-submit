@@ -15,6 +15,12 @@ const Email = forwardRef(
             defaultMessage="Email *"
           />
         </label>
+        <span className={giftcard.directive}>
+          <FormattedMessage
+            id="giftcard.recipient_email.directive"
+            defaultMessage="Gavekortmodtagers email"
+          />
+        </span>
         <input
           className={giftcard.input}
           id="giftcard_email"

@@ -1,9 +1,14 @@
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage, FormattedDate } from "react-intl";
 import confirmation from "./../styles/Confirmation.module.css";
 import giftcard from "../styles/Giftcard.module.css";
 import payment from "./../styles/Payment.module.css";
+import { Context } from "./ContextWrapper";
+import { useContext } from "react";
 
 function GiftcardConfirmation() {
+  // fetch the info state and dispatch function from context provider
+  const { info } = useContext(Context);
+
   return (
     <div className={confirmation.page}>
       <div className={confirmation.content_wrapper}>
@@ -34,7 +39,18 @@ function GiftcardConfirmation() {
           <p>
             <FormattedMessage
               id="giftcard.promise"
-              defaultMessage="Gavekortet sendes på mail nu."
+              defaultMessage="Gavekortet sendes på email {date}."
+              values={{
+                date: (
+                  <FormattedDate
+                    value={info.response.date}
+                    year="numeric"
+                    month="long"
+                    day="numeric"
+                    weekday="long"
+                  />
+                ),
+              }}
             />
           </p>
         </div>

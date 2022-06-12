@@ -22,7 +22,7 @@
 
   "home.instagram": "Check our Instagram posts out",
   "giftcard.thanks": "Thank you for your purchase and for supporting our company!",
-  "giftcard.promise": "The gift card will be send by email now.",
+  "giftcard.promise": "The gift card will be send by email on {date}.",
 
   "greeting": "Wild Orchid Website",
 
@@ -157,17 +157,25 @@
 
   "book": "Book now",
 
+  "giftcard.info.welcome": "You can order an electronic gift card to be send to a specified email",
   "giftcard.info.first_name_label": "First name",
+  "giftcard.first_name.directive": "Gift card recipient's first name",
   "giftcard.info.first_name_placeholder": "Type first name here...",
   "giftcard.info.last_name_label": "Last name",
+  "giftcard.last_name.directive": "Gift card recipient's last name",
   "giftcard.info.last_name_placeholder": "Type last name here...",
   "giftcard.info.email_label": "Email *",
+  "giftcard.recipient_email.directive": "Gift card recipient's email",
   "giftcard.info.email_placeholder": "Type email here ...",
+  "giftcard.info.sender_email_label": "Sender email",
+  "giftcard.sender_email.directive": "Gift card sender's email (optional)",
   "giftcard.info.amount_label": "Amount (DKK) *",
   "giftcard.info.amount_placeholder": "Type the amount you wish to purchase here...",
   "giftcard.info.note_label": "Note",
+  "giftcard.note.directive": "If there is anything else we should know (optional)",
   "giftcard.info.note_placeholder": "Type a note here...",
   "giftcard.info.date_label": "Date received *",
+  "giftcard.info.date.directive": "The gift card will be send to the chosen email on this day",
   "giftcard.info.now_label": "Now",
   "giftcard.info.later_label": "Later",
   "giftcard.name.error": "{value} can only consist of letters",

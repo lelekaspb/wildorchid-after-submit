@@ -74,6 +74,11 @@ fieldset {
   flex-direction: column;
 }
 
+.welcome {
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
 .field {
   display: flex;
   flex-direction: column;
