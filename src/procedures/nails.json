@@ -2,27 +2,22 @@
   {
     "translId": "services.nails.light_manicure_shellac",
     "translDefould": "Let manicure med shellac / la’rock",
-    "price": 400
+    "price": 450
   },
   {
     "translId": "services.nails.light_manicure",
     "translDefould": "Let manicure",
-    "price": 250
+    "price": 300
   },
   {
     "translId": "services.nails.light_pedicure_shellac",
     "translDefould": "Let pedicure med shellac / la’rock",
-    "price": 450
+    "price": 500
   },
   {
     "translId": "services.nails.light_pedicure",
     "translDefould": "Let pedicure",
-    "price": 300
-  },
-  {
-    "translId": "services.nails.luxus_manicure_shellac",
-    "translDefould": "Luksus spa manicure med shellac / la’rock",
-    "price": 550
+    "price": 350
   },
   {
     "translId": "services.nails.shellac_fullcolor_fingers",

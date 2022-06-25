@@ -2,13 +2,25 @@
   {
     "translId": "services.sugaring.brasilian",
     "translDefould": "Sugaring brasiliansk",
-    "priceBeforeSixWeeks": 350,
-    "priceAfterSixWeeks": 400
+    "priceBeforeSixWeeks": 400,
+    "priceAfterSixWeeks": 450
+  },
+  {
+    "translId": "services.sugaring.brasilian_plus_armpits",
+    "translDefould": "Sugaring brasiliansk og armhule",
+    "priceBeforeSixWeeks": 500,
+    "priceAfterSixWeeks": 600
+  },
+  {
+    "translId": "services.sugaring.brasilian_plus_wax_legs",
+    "translDefould": "Sugaring brasiliansk og voks af hele ben",
+    "priceBeforeSixWeeks": 700,
+    "priceAfterSixWeeks": 750
   },
   {
     "translId": "services.sugaring.bikini",
     "translDefould": "Sugaring af bikini",
-    "priceBeforeSixWeeks": 200,
+    "priceBeforeSixWeeks": 230,
     "priceAfterSixWeeks": 250
   },
   {
@@ -70,11 +82,5 @@
     "translDefould": "Sugaring af overlæbe / hage",
     "priceBeforeSixWeeks": 120,
     "priceAfterSixWeeks": 150
-  },
-  {
-    "translId": "services.sugaring.enzyme_peeling",
-    "translDefould": "Enzyme peeling clinique care i forbindelse med behandling",
-    "priceBeforeSixWeeks": 100,
-    "priceAfterSixWeeks": 100
   }
 ]

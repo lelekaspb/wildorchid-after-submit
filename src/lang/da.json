@@ -93,6 +93,7 @@
   "services.spraytan.intro_one": "For at få det bedste resultat med vores spray tan, peel huden dagen før (eller om morgenen på behandlingsdagen). Det kan enten gøres med en bodyscrub, handske eller bare et håndklæde efter badet. Det er vigtigt, at du skrubber hele din krop.",
   "services.spraytan.intro_two": "Den spray tan vi bruger i vores behandling består af naturlige ingredienser, der ikke kun får din hud til at gløde, men også har en fugtgivende effekt, der fører til blød og glat hud. Hos Wild Orchid får du gylden intens hudfarve med anti-aging effekt.",
   "services.spraytan.upper_body": "Overkrop inkl. ansigt, mave, ryg og arme",
+  "services.spraytan.legs": "Hele ben",
   "services.spraytan.whole_body": "Hele kroppen inkl. ansigt",
   "services.spraytan.whole_body_dark": "Hele kroppen inkl. ansigt (ekstra mørk)",
 
@@ -137,6 +138,8 @@
   "services.waxing.face_whole": "Voks af hele ansigtet",
   "services.waxing.whole_body": "Voks af hele kroppen",
   "services.sugaring.brasilian": "Sugaring brasiliansk",
+  "services.sugaring.brasilian_plus_armpits": "Sugaring brasiliansk og armhule",
+  "services.sugaring.brasilian_plus_wax_legs": "Sugaring brasiliansk og voks af hele ben",
   "services.sugaring.bikini": "Sugaring af bikini",
   "services.sugaring.half_legs": "Sugaring af halve ben",
   "services.sugaring.thighs": "Sugaring af lår",

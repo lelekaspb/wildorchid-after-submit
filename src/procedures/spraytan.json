@@ -2,7 +2,12 @@
   {
     "translId": "services.spraytan.upper_body",
     "translDefould": "Overkrop inkl. ansigt, mave, ryg og arme",
-    "price": 100
+    "price": 130
+  },
+  {
+    "translId": "services.spraytan.legs",
+    "translDefould": "Overkrop inkl. ansigt, mave, ryg og arme",
+    "price": 130
   },
   {
     "translId": "services.spraytan.whole_body",

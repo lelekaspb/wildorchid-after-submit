@@ -93,6 +93,7 @@
   "services.spraytan.intro_one": "For best results with our spray tan, peel the skin the day before (or in the morning on the day of treatment). It can either be done with a body scrub, glove or just a towel after the bath. It is important that you scrub your entire body.",
   "services.spraytan.intro_two": "The spray tan we use in our treatment consists of natural ingredients that not only make your skin glow, but also have a moisturizing effect that leads to soft and smooth skin. At Wild Orchid you get golden intense skin color with anti-aging effect.",
   "services.spraytan.upper_body": "Upper body incl. face, abdomen, back and arms",
+  "services.spraytan.legs": "Whole legs",
   "services.spraytan.whole_body": "The whole body incl. face",
   "services.spraytan.whole_body_dark": "The whole body incl. face (extra dark)",
 
@@ -137,6 +138,8 @@
   "services.waxing.face_whole": "Wax of the whole face",
   "services.waxing.whole_body": "Wax of the whole body",
   "services.sugaring.brasilian": "Sugaring Brazilian",
+  "services.sugaring.brasilian_plus_armpits": "Sugaring brazilian and armpits",
+  "services.sugaring.brasilian_plus_wax_legs": "Sugaring brazilian and wax of whole legs",
   "services.sugaring.bikini": "Sugaring of a bikini",
   "services.sugaring.half_legs": "Sugaring of half legs",
   "services.sugaring.thighs": "Sugaring of thighs",
